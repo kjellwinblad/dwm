@@ -5,7 +5,7 @@
 #define TERMCLASS "St"
 
 /* appearance */
-static unsigned int borderpx  = 3;        /* border pixel of windows */
+static unsigned int borderpx  = 10;        /* border pixel of windows */
 static unsigned int snap      = 32;       /* snap pixel */
 static unsigned int gappih    = 20;       /* horiz inner gap between windows */
 static unsigned int gappiv    = 10;       /* vert inner gap between windows */
@@ -329,3 +329,4 @@ static Button buttons[] = {
 	{ ClkTagBar,		0,		Button5,	shiftview,	{.i = 1} },
 	{ ClkRootWin,		0,		Button2,	togglebar,	{0} },
 };
+
